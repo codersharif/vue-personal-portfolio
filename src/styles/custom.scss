@@ -1,0 +1,43 @@
+.parallax-height {
+    height: 100vh;
+    min-height: 100vh;
+    background: #f9f9ff !important;
+  }
+.box-color {
+color: #666;
+}
+.sk-card{
+    box-shadow: none !important;
+    background: #f9f9ff !important;
+}
+
+.sk-card-title {
+    display: inherit !important;
+    padding-bottom: 0px !important;
+
+    .sk-title {
+        font-weight: 700;
+        font-size: 36px;
+        color: #353353;
+        font-family: "Rubik", sans-serif;
+        text-align: center !important;
+        margin-top: 5px;
+      }
+  }
+
+  .sk-action{
+    display: inherit !important;
+
+    .sk-icon-btn{
+        height: 36px !important;
+        min-width: 46px !important;
+        padding: 0 10px !important;
+    }
+  }
+
+  .sk-icon-title{
+      color: #27b446;
+    .sk-icon{
+        color: #d1c7c7;
+    }
+  }

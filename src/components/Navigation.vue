@@ -46,7 +46,7 @@ export default {
       2: {
         path: "about",
         icon: "mdi-account-check",
-        name: "About"
+        name: "about"
       },
       3: {
         path: "services",
