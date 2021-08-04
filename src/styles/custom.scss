@@ -1,43 +1,79 @@
-.parallax-height {
-    height: 100vh;
-    min-height: 100vh;
-    background: #f9f9ff !important;
-  }
-.box-color {
-color: #666;
+.parallax-height
+{
+  height: 100vh;
+  min-height: 100vh;
+  background: #f9f9ff !important;
 }
-.sk-card{
-    box-shadow: none !important;
-    background: #f9f9ff !important;
+.box-color 
+{
+  color: #666;
+}
+.sk-card
+{
+  box-shadow: none !important;
+  background: #f9f9ff !important;
 }
 
-.sk-card-title {
-    display: inherit !important;
-    padding-bottom: 0px !important;
+.sk-card-title 
+{
+  display: inherit !important;
+  padding-bottom: 0px !important;
 
-    .sk-title {
-        font-weight: 700;
-        font-size: 36px;
-        color: #353353;
-        font-family: "Rubik", sans-serif;
-        text-align: center !important;
-        margin-top: 5px;
-      }
+  .sk-title 
+  {
+    font-weight: 700;
+    font-size: 36px;
+    color: #353353;
+    font-family: "Rubik", sans-serif;
+    text-align: center !important;
+    margin-top: 5px;
+  }
+}
+
+.sk-action
+{
+  display: inherit !important;
+
+  .sk-icon-btn
+  {
+    height: 36px !important;
+    min-width: 46px !important;
+    padding: 0 10px !important;
+  }
+}
+
+.sk-icon-title
+{
+  color: #27b446;
+  .sk-icon
+  {
+    color: #d1c7c7;
+  }
+}
+
+.sk-about
+{
+  margin-top: 90px;
+  .sk-a-img
+  {
+    width: 37px;
+    position: absolute;
   }
 
-  .sk-action{
-    display: inherit !important;
-
-    .sk-icon-btn{
-        height: 36px !important;
-        min-width: 46px !important;
-        padding: 0 10px !important;
-    }
+  .sk-a-title
+  {
+    position: relative;
+    left: 10px;
+    top: 9px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #454360;
+    font-family: "Rubik", sans-serif;
   }
+}
 
-  .sk-icon-title{
-      color: #27b446;
-    .sk-icon{
-        color: #d1c7c7;
-    }
-  }
+.sk-space
+{
+  width: 100%;
+  height: 65px;
+}

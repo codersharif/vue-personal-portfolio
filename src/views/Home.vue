@@ -17,7 +17,7 @@
             <v-avatar size="150">
               <v-img
                 class="animate__hinge"
-                height="250"
+                height="165"
                 :src="require('@/assets/' + GetUser.image)"
               ></v-img>
             </v-avatar>
